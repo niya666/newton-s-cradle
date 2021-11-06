@@ -19,7 +19,7 @@ class rope{
 
 		strokeWeight(2);
 
-		 line(pointA.x, pointA.y , pointB.x, pointB.y);
+		 line(pointA.x, pointA.y , pointB.x + this.offsetX , pointB.y);
 	}
 
 }
